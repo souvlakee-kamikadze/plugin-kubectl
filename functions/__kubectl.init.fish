@@ -35,6 +35,7 @@ function __kubectl.init
 
   # General aliases
   __kubectl.create_abbr kdel      kubectl delete
+  __kubectl.create_abbr kd        kubectl describe
   __kubectl.create_abbr kdelf     kubectl delete -f
 
   # Pod management.
